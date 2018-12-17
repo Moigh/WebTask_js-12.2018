@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Moigh</title>
+		<link rel="shortcut icon" href="icon.png">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="js.js"></script>
+		<style>
+			@font-face{
+				font-family:helvetica;
+				src: url(helvetica.ttf);
+			}
+			body *{		
+	            font-family:helvetica;
+				font-size:15px;
+				margin:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="col-md-8 col-md-push-2">	
+		    <br>
+			<br>
+			<h2>4.1</h2>
+		    <br>
+			<br>
+			<p>Введите длину стороны квадрата</p>
+			<form name="a">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<br>
+			<a class="btn btn-success" onclick="first()">*Тык*</a>	
+			<br>
+			<p id="first"></p>	    
+			<br>
+			<br>
+			<p>Введите радиус</p>
+			<form name="b">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<br>
+			<a class="btn btn-success" onclick="second()">*Тык*</a>	
+			<br>
+			<p id="second"></p>
+			<br>
+			<br>
+			<p>Введите длины полуосей элипса</p>
+			<form name="c">
+				<input type="text" class="form-control" name="n1">
+				<input type="text" class="form-control" name="n2">
+			</form>	
+			<a class="btn btn-success" onclick="third()">*Тык*</a>	
+			<br>
+			<p id="third"></p>
+			<br>
+			<br>
+			<p>Введите основание и высоту параллелограмма</p>
+			<form name="d">
+				<input type="text" class="form-control" name="n1">
+				<input type="text" class="form-control" name="n2">
+			</form>	
+			<a class="btn btn-success" onclick="fourth()">*Тык*</a>	
+			<br>
+			<p id="fourth"></p>			
+		    <br>
+			<br>
+			<p>Введите длины оснований и высоту трапеции</p>
+			<form name="e">
+				<input type="text" class="form-control" name="n">
+				<input type="text" class="form-control" name="n1">
+				<input type="text" class="form-control" name="n2">
+			</form>	
+			<br>
+			<a class="btn btn-success" onclick="fifth()">*Тык*</a>	
+			<br>
+			<p id="fifth"></p>
+		    <br>
+			<br>
+			<p>Введите длину основания и высоту треугольника</p>
+			<form name="f">
+				<input type="text" class="form-control" name="n1">
+				<input type="text" class="form-control" name="n2">
+			</form>	
+			<br>
+			<a class="btn btn-success" onclick="sixth()">*Тык*</a>	
+			<br>
+			<p id="sixth"></p>
+			<hr>
+		    <br>
+			<br>
+			<h2>4.2</h2>
+		    <br>
+			<br>
+			<a class="btn btn-success" onclick="a1()">1.</a>	
+			<p id="a1"></p>
+		    <br>
+			<br>
+			<a class="btn btn-success" onclick="a2()">2.</a>			
+			<p id="a2"></p>
+			<br>
+			<br>
+			<a class="btn btn-success" onclick="a3()">3.</a>			
+			<p id="a3"></p>
+			<br>
+			<br>
+			<p>Введите число</p>
+			<form name="g">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<a class="btn btn-success" onclick="a4()">4.</a>			
+			<p id="a4"></p>
+			<br>
+			<br>
+			<p>Введите число</p>
+			<form name="h">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<a class="btn btn-success" onclick="a5()">5.</a>			
+			<p id="a5"></p>
+			<br>
+			<br>
+			<a class="btn btn-success" onclick="a6()">6.</a>			
+			<p id="a6"></p>
+			<br>
+			<br>
+			<a class="btn btn-success" onclick="a7()">7.</a>			
+			<p id="a7"></p>
+			<br>
+			<br>
+			<p>Введите число x<1</p>
+			<form name="i">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<a class="btn btn-success" onclick="a8()">8.</a>			
+			<p id="a8"></p>
+			<br>
+			<br>
+			<p>Введите число </p>
+			<form name="j">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<a class="btn btn-success" onclick="a9()">9.</a>			
+			<p id="a9"></p>
+			<br>
+			<br>
+			<a class="btn btn-success" onclick="a10()">10.</a>			
+			<p id="a10"></p>
+			<br>
+			<br>
+			<p>Введите число x<1</p>
+			<form name="k">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<a class="btn btn-success" onclick="a11()">11.</a>			
+			<p id="a11"></p>
+			<br>
+			<br>
+			<p>Введите число x<1</p>
+			<form name="l">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<a class="btn btn-success" onclick="a12()">12.</a>			
+			<p id="a12"></p>
+			<br>
+			<br>
+			<a class="btn btn-success" onclick="a13()">13.</a>			
+			<p id="a13"></p>
+			<br>
+			<br>
+			<p>Введите число </p>
+			<form name="m">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<a class="btn btn-success" onclick="a17()">17.</a>			
+			<p id="a17"></p>
+			<br>
+			<br>
+			<h2>4.3</h2>
+		    <br>
+			<br>
+			<p>Введите размер матрицы</p>
+			<form name="n">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<p>Введите элементы матрицы</p>
+			<form name="o">
+				<input type="text" class="form-control" name="n">
+			</form>	
+			<a class="btn btn-success" onclick="b1()">1.</a>	
+			<p id="b1"></p>
+			<p id="b2"></p>
+			<br>
+			<br>
+			<a class="btn btn-success" href="new 1.html"">Task 4.4</a>	
+			<br>
+			<br>
+		</div>
+  	</body>
+</html>
